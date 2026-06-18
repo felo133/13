@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website gaming</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Updated (لحل مشكلة اختفاء الأيقونات) -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./images/logo.png" alt="Logo">
+        </div>
+        
+        <!-- الأيقونة دي هتظهر دلوقتي بعد تحديث الرابط -->
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        
+        <ul class="nav-links" id="nav-links"> <!-- ضيف الـ id ده هنا -->
+    <li><a href="#home">Home</a></li>
+    <li><a href="#trending">Our Shop</a></li>
+    <li><a href="#categories">Product Details</a></li>
+    <li><a href="Contact.html">Contact Us</a></li>
+</ul>
+        
+        <a href="#" class="sign-in">Sign In</a>
+
+    </nav>
+
+<div id="home-page">
+
+        <!-- Hero -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <h4>WELCOME TO LUGX</h4>
+
+            <h1>Your Ultimate Gaming Destination!</h1>
+
+            <p>
+               
+            LUGX Gaming — your go-to platform for discovering top-rated games,
+            exploring new releases, and staying ahead in the gaming world. Join
+            millions of gamers who trust LUGX for the best experience.
+          
+            </p>
+
+            <div class="data-search">
+               <input type="text" id="gameInput" placeholder="Search for a game">
+               <button id="searchBtn">SEARCH NOW</button>
+            </div>
+
+        </div>
+             <!-- صورة البطل  -->
+        <div class="hero-image">
+            <img src="./images/banner-image.jpg">
+        </div>
+
+    </section>
+
+    <!-- Trending Games -->
+
+    <section id="trending" class="trending">
+
+        <div class="section-header">
+          <div class="title-text">
+            <span class="orange-text" style="color: rgb(255, 122, 61);">🔥 HOT RIGHT NOW</span>
+
+            <h2 style="display: block;
+                       font-size: 2em;
+                       margin-block-start: 0.67em;
+                       margin-block-end: 0.67em;
+                       margin-inline-start: 0px;
+                        margin-inline-end: 0px;
+                       font-weight: bold;
+                       unicode-bidi: isolate;">Trending Games</h2>
+          </div>
+
+            <a href="#" class="view-all-btn">VIEW ALL</a>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <img src="./images/top-game-01.jpg"
+                    alt="">
+
+                <div class="card-content">
+                   <P>Action / RPG</P>
+                   <h3>Assassin’s Creed</h3>
+                </div>
+                <button class="buy-btn">
+                    Buy Now
+                </button>
+            </div>
+
+            <div class="card">
+                <img src="./images/top-game-02.jpg"
+                    alt="">
+
+                <div class="card-content">
+                  <p>Open World</p>
+                  <h3>Cyberpunk 2077</h3>
+                </div>
+                <button class="buy-btn">
+                    Buy Now
+                </button>
+            </div>
+
+            <div class="card">
+                <img src="./images/top-game-03.jpg"
+                    alt="">
+
+                <div class="card-content">
+                    <p>Adventure</p>
+                    <h3>God Of War</h3>
+                </div>
+                <button class="buy-btn">
+                    Buy Now
+                </button>
+            </div>
+
+             <div class="card">                
+                <img src="./images/top-game-04.jpg"
+                    alt="">
+
+                <div class="card-content">
+                    <p>Dark Fantasy</p>
+                    <h3>Elden Ring</h3>
+                </div>
+                <button class="buy-btn">
+                    Buy Now
+                </button>
+             </div>
+        </div>
+    </section>
+
+    <!-- Most Played Section -->
+
+<section class="most-played" style="margin: 100px 200px 200px 70px;">
+    <div class="top-section">
+        <div>
+            <h4>TOP GAMES</h4>
+            <h2>Most Played</h2>
+        </div>
+        <button class="view-btn" id="openPopup">
+             VIEW ALL
+        </button>
+    </div>
+
+    <div class="played-cards">
+        <!-- Card 1 -->
+        <div class="played-card">
+            <img src="./images/top-game-01.jpg"
+                alt="">
+
+            <p>Action</p>
+            <h3>Assasin’s Creed</h3>
+            <button>EXPLORE</button>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="played-card">
+            <img src="./images/top-game-02.jpg"
+                alt="">
+            <p>Open World</p>
+            <h3>Cyberpunk 2077</h3>
+            <button>EXPLORE</button>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="played-card">
+            <img src="./images/top-game-03.jpg"
+                alt="">
+            <p>Adventure</p>
+            <h3>God of War</h3>
+            <button>EXPLORE</button>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="played-card">
+            <img src="./images/top-game-04.jpg"
+                alt="">
+            <p>Fantasy</p>
+            <h3>Elden Ring</h3>
+            <button>EXPLORE</button>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="played-card">
+            <img src="./images/top-game-05.jpg"
+                alt="">
+
+            <p>Shooter</p>
+            <h3>Halo infinite</h3>
+            <button>EXPLORE</button>
+        </div>
+
+
+        <!-- Card 6 -->
+        <div class="played-card">
+            <img src="./images/top-game-06.jpg"
+                alt="">
+            <p>RPG</p>
+            <h3>The Witcher 3</h3>
+            <button>EXPLORE</button>
+        </div>
+    </div>
+</section>
+
+
+    <!-- قسم التصنيفات المميزة -->
+<section id="categories" class="top-categories">
+    <div class="container">
+        <div class="section-title">
+            <span class="sub-title">TOP GAMES</span>
+            <h2>Top Categories</h2>
+        </div>
+
+        <div class="categories-grid">
+            <!-- تصنيف Action -->
+            <div class="category-item">
+                <div class="cat-header">Action</div>
+                <div class="cat-thumb">
+                    <img src="./images/categories-01.jpg" alt="Action Games">
+                </div>
+            </div>
+
+            <!-- تصنيف RPG -->
+            <div class="category-item">
+                <div class="cat-header">RPG</div>
+                <div class="cat-thumb">
+                    <img src="./images/categories-02.jpg" alt="RPG Games">
+                </div>
+            </div>
+
+            <!-- تصنيف Adventure -->
+            <div class="category-item">
+                <div class="cat-header">Adventure</div>
+                <div class="cat-thumb">
+                    <img src="./images/categories-03.jpg" alt="Adventure Games">
+                </div>
+            </div>
+
+            <!-- تصنيف Shooter -->
+            <div class="category-item">
+                <div class="cat-header">Shooter</div>
+                <div class="cat-thumb">
+                    <img src="./images/categories-04.jpg" alt="Shooter Games">
+                </div>
+            </div>
+
+            <!-- تصنيف Strategy -->
+            <div class="category-item">
+                <div class="cat-header">Strategy</div>
+                <div class="cat-thumb">
+                    <img src="./images/categories-05.jpg" alt="Strategy Games">
+                </div>
+            </div>
+        </div>
+
+        <!-- صندوق الترحيب البرتقالي -->
+        <div class="welcome-back-bar">
+            <p><i class="fas fa-gamepad"></i> Welcome back! You have visited 28 times.</p>
+        </div>
+    </div>
+</section>
+
+     <!-- Footer -->
+    <footer>
+        copyright © 2026 LUGX Gaming Company. All rights reserved.
+    </footer>
+
+<!-- نافذة تسجيل الدخول -->
+<div class="login-modal-overlay" id="loginModal">
+    <div class="login-card">
+        <span class="close-modal" id="closeBtn">&times;</span>
+        <h2>Sign In</h2>
+        <form>
+            <div class="form-group">
+                <input type="text" placeholder="Username" required>
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Password" required>
+            </div>
+            <button type="submit" class="submit-btn">LOGIN</button>
+        </form>
+    </div>
+</div>
+</div>
+
+<!-- قسم نموذج التواصل  -->
+<div id="contact-page" style="display: none;">
+    
+    <!-- الجزء العلوي لصفحة التواصل -->
+<section class="contact-header">
+    <div class="container">
+        <h1>Get In Touch</h1>
+        <p>Have a question or feedback? We'd love to hear from you.</p>
+    </div>
+</section>
+
+<!-- هنا يوضع الفورم الذي صممناه  -->
+<section class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+</section>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
